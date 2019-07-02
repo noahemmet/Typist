@@ -5,6 +5,7 @@
 //  Created by Toto Tvalavadze on 2016/09/26. MIT Licence.
 //
 
+import Foundation
 import UIKit
 
 /**
@@ -33,6 +34,7 @@ import UIKit
  
  To remove all event callbacks, call `clear()`.
  */
+@available(iOS 13.0, *)
 public class Typist: NSObject {
     
     /// Returns the shared instance of Typist, creating it if necessary.
